@@ -1,0 +1,38 @@
+{
+  "name": "tw5-public",
+  "version": "0.2.0",
+  "author": "Anthony Gagliardo <anthony@gagliardo.me>",
+  "contributors": ["Kun Xi <kunxi@kunxi.org>"],
+  "description": "a simple auth proxy for a public TiddlyWiki5.",
+  "dependencies": {
+    "express": "*",
+    "passport": "*",
+    "passport-google-oauth": "*",
+    "http-proxy": "~1.13.2",
+    "nconf": "*",
+    "express-logger": "0.0.3",
+    "express-session": "~1.13.0",
+    "cookie-parser": "~1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theanthonyplan/tw5-public.git"
+  },
+  "keywords": [
+    "public",
+    "TiddlyWiki5",
+    "proxy",
+    "server",
+    "authentication",
+    "authorization"
+  ],
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kunxi/tw5-auth/issues"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
